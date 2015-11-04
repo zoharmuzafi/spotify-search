@@ -1,1 +1,21 @@
 /* put custom styles in this file */
+body{
+	background-color: #33985B;
+}
+.form-group{
+	text-align: center;
+}
+#track{
+	font-size: 30px;
+}
+#searchText{
+font-size: 20px;
+}
+.btn{
+	margin: 10px;
+	font-size: 20px;
+}
+#search{
+	background-color: rgba(7,105,173,1);
+}
+
