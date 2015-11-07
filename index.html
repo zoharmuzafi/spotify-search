@@ -16,29 +16,26 @@
 </head>
 <body>
   <div class="container">
-    <div class="row">
+
+    <div class="row" id="header">
       <div class="col-md-6 col-md-offset-3">
-        <h1 class="text-center">Spotify Search</h1>
-        <div id="results"></div>
-      </div>
+        <h1>Spotify Search<h1>
+      </div> 
     </div>
-  </div>
-      <div>
+    <div class="row">
+      <div class="col-md-4"></div>
+      <div class="col-md-4" id= "formDiv">
         <form role="form" id="search">
            <div class="form-group">
-              <label for="track" id="searchText">search for your favorite tracks</label><br>
-              <input id="track" name="q" type:"text" class:"form-control"><br>
-              <input type = "submit" value = "search" class = "btn btn-primary">
-           </div>      
-        </form>   
-      </div>
-  <div class="col-md-12" id = "results">
-    <div id = "artistTrack">
-     <ol></ol>
+              <label for="track" id="searchText">Search For Your Favorite Track</label><br>
+              <input id="track" name="q" type:"text" class:"form-control">
+              <input type = "submit" value = "search" class = "btn btn-primary">  
+            </div>      
+        </form> 
+      </div> 
+      <div cass="col-md-4"></div>
     </div>
-
   </div>
-  
   <!-- jquery -->
   <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 
@@ -49,3 +46,5 @@
   <script type="text/javascript" src="main.js"></script>
 </body>
 </html>
+
+
